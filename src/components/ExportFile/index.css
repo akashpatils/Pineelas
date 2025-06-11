@@ -1,0 +1,12 @@
+.list button:hover {
+    transition: all ease-in-out 0.5s;
+    background-color: #1c474b;
+    color: white;
+}
+
+.list button {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    text-align: start;
+}
+

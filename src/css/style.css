@@ -1,0 +1,341 @@
+.container {
+  max-width: 90% !important;
+  margin: auto;
+}
+.pine_banner {
+  background: url("../../public/images/pinellas_home_bg_new.jpg") no-repeat;
+  background-size: 100%;
+}
+.department_bg {
+  background-image: url("../../public/images/Department_Home_Page_Bg-sharp.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 680px;
+}
+.payrollexpenses_bg {
+  background-image: url("../../public/images/Payroll_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 680px;
+}
+.vendor_bg {
+  background-image: url("../../public/images/Vendors_DetailsPage_Bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 680px;
+}
+.menu_wrap ul li a {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 900;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.menu_wrap ul li a:hover {
+  color: #8e304a;
+  background: #fff;
+  
+}
+.logo_wrap {
+  /* background-position: top left; */
+  background-color: rgb(74, 64, 56, 0.6) !important;
+  width: 432px;
+  height: 155px;
+  border-radius: 130px;
+  background-size: 90% !important;
+}
+
+.home_logo {
+  background: url("../../public/images/new_logo.png") no-repeat center;
+}
+
+.other_logo {
+  background: url("../../public/images/seal-county.png") no-repeat left top !important;
+  /* background-position: top left; */
+  /* background-color: rgb(74, 64, 56, 0.6) !important; */
+  width: 505px;
+  height: 207px;
+  border-radius: 0 !important;
+  /* border-radius: 130px; */
+}
+
+select option {
+  background-color: #f3f3f3; /* light gray */
+  color: #000;
+}
+
+.custom-tabview-container {
+  display: flex;
+  justify-content: center;
+}
+.custom-tabview-container-detailview {
+  display: flex;
+  justify-content: start;
+}
+
+.custom-tabview {
+  border: 1px solid #7a2e3a;
+  border-radius: 14px;
+  font-size: 14px;
+  overflow: hidden;
+  display: inline-flex;
+  background: transparent;
+}
+
+.custom-tabdetailview-container {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-tabdetailview {
+  /* border: 1px solid #7a2e3a; */
+  border-radius: 14px;
+  font-size: 14px;
+  overflow: hidden;
+  display: inline-flex;
+  background: transparent;
+}
+
+.custom-tab-header {
+  width: 115px;
+  background-color: white;
+  color: #333;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+}
+
+.custom-tab-header.active {
+  background-color: #7a2e3a;
+  color: white;
+  font-size: 14px;
+}
+
+.custom-tab-header-detailview {
+  width: 170px;
+  background-color: white;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  /* transition: all 0.3s ease; */
+  /* flex: 1; */
+}
+
+.custom-tab-header-detailview.active {
+  /* background-color: #7a2e3a; */
+  color: #7a2e3a;
+  font-size: 16px;
+}
+
+/* .custom-tabview .p-tabview-panels {
+  margin-top: 1rem;
+} */
+
+.custom-tab-content {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.depart_tbl .p-datatable-thead > tr > th{
+  padding: 12px;
+  font-size: 15px;
+  background: #f4f5f9;
+  color: #333;
+  font-weight: 600;
+}
+.depart_tbl .p-datatable-thead > tr > th.p-filter-column svg{
+  color: #333;
+}
+.depart_tbl .p-datatable-thead > tr:first-child > th.p-filter-column {
+  border-right: 1px solid #dadee0;
+  border-bottom: 1px solid #dadee0;
+}
+.depart_tbl .p-datatable-thead > tr > th.p-filter-column:last-child {
+  border-right: none;
+}
+.no_firstcolumn .p-datatable-thead > tr > th:first-child {
+  position: absolute;
+  padding: 0;
+  border: none;
+}
+.depart_tbl .p-datatable-tbody > tr {
+  position: relative;
+}
+.depart_tbl .p-datatable-tbody > tr > td {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.depart_tbl .p-datatable-tbody > tr.p-datatable-row-expansion > td{
+  padding: 0;
+}
+.depart_tbl .p-datatable-tbody > tr.p-row-odd > td {
+  background: #f4f5f9;
+}
+.depart_tbl .p-datatable-tbody > tr > td.depart_name {
+  padding-left: 32px;
+  color: #7c2f3e;
+}
+.vendor_tbl .p-datatable-tbody > tr > td.depart_name{
+  padding-left: 15px;
+}
+.depart_tbl .p-datatable-tbody > tr > td.expand_icon{
+  position: absolute;
+  padding: 0;
+  top: 5px;
+  width: auto !important;
+}
+.depart_tbl .p-datatable-tbody > tr > td.expand_icon button{
+  box-shadow: none;
+}
+.depart_tbl .p-datatable-thead > tr > th.p-filter-column .p-column-filter button{
+  display: none;
+}
+.depart_tbl
+  .p-datatable-thead
+  > tr
+  > th.p-filter-column
+  .p-column-filter
+  input.p-inputtext {
+  border-color: #ccd7e6;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.depart_tbl
+  .p-datatable-thead
+  > tr
+  > th.p-filter-column
+  .p-column-filter
+  input.p-inputtext::placeholder {
+  font-size: 14px;
+}
+.depart_tbl .p-paginator {
+  background: #eee;
+  padding: 0 15px;
+  justify-content: end;
+}
+.depart_tbl .p-paginator button {
+  color: #222;
+}
+.depart_tbl{
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  background: #ddd;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #444;
+}
+
+.custom-prev {
+  left: -40px;
+}
+
+.custom-next {
+  right: -40px;
+}
+.departinner_tbl table thead tr:first-child{
+  display: none;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight{
+  color: #000;
+  font-weight: 600;
+  background: #F7F7F7;
+}
+
+.first-tab {
+  border-right: 1px solid #ccc; 
+}
+.departpopup .p-dialog-header{
+  left: auto;
+  background: transparent;
+  padding: 0;
+  right: 5px;
+}
+.departpopup .p-dialog-content{
+  padding: 0px;
+  border-radius: 15px;
+}
+.depart_tabs .react-tabs__tab-list li{
+  outline: 0;
+  display: flex;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.bar-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 5px;
+}
+
+.bar {
+  width: 4px;
+  height: 20px;
+  background-color: #333;
+  animation: pulse 1s infinite ease-in-out;
+}
+
+.bar:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scaleY(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scaleY(1.5);
+    opacity: 1;
+  }
+}
+.yearTabs ul li{
+  margin: 0;
+  outline: 0;
+}
+.depart_tabs .depart_tbl .p-datatable-tbody > tr > td{
+  color: #7a2e3a;
+}
+.deptDetail_tbl .p-datatable-tbody tr.p-datatable-row-expansion > td{
+  padding: 10px 15px;
+}
+.deptDetail_tbl tr.p-datatable-row-expansion .p-datatable-thead > tr > th:first-child{
+  position: relative;
+  padding: 12px;
+}
